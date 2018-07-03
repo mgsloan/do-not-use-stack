@@ -3,6 +3,9 @@ name:                 do-not-use-stack
 version:              0
 build-type:           Custom
 
+flag bytestring--LT-0_10_4
+  description: [bytestring](https://hackage.haskell.org/haskell/package/bytestring) < 0.10.4
+
 custom-setup
   setup-depends:      Cabal >= 1.10, base == 4.*
 
